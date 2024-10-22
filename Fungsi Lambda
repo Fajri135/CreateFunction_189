@@ -1,0 +1,12 @@
+# Digunakan untuk mengimpor modul math, yang menyediakan berbagai fungsi matematika 
+# Seperti trigonometri, logaritma, dan fungsi eksponensial, serta konstanta seperti pi.
+import math 
+luas_lingkaran = lambda r: math.pi * r*r
+
+# Contoh Penggunaan
+jari_jari = 7 #jari jari untuk lingkaran = 7
+area = luas_lingkaran(jari_jari) 
+
+# Perintah untuk mencetak teks dengan interpolasi variabel jari_jari dan area, 
+# Di mana nilai area dibulatkan hingga dua tempat desimal menggunakan format string f dan format spesifik {:.2f}
+print (f"Luas Lingkaran dengan Jari Jari {jari_jari} adalah {area:.2f}")
